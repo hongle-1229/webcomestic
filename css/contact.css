@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.wrapper-header {
+    display: flex;
+    height: 90px;
+}
+.logo-header{
+    line-height: 90px;
+    padding: 15px 120px;
+    margin-right: 120px;
+}
+header ul{
+    list-style: none;
+}
+.menu-trangchu{
+    overflow: hidden;
+}
+.menu-trangchu a{
+    color: black;
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.menu-trangchu :hover,
+.menu-trangchu :active {
+    color: #55A8FC;
+    text-decoration: underline;
+    transform: 0.3s;
+    height: 89px;
+}
+.menu1{
+    color: #55A8FC;
+    text-decoration: underline;
+    padding: 30px;
+    font-size: 20px;
+}
+.icon-trangchu{
+    overflow: hidden;
+    margin-left: 100px;
+}
+.icon-trangchu a{
+    line-height: 90px;
+    padding-right: 50px;
+    color: black;
+    font-size: 20px;
+}
+.icon-trangchu a:hover,
+.icon-trangchu a:active{
+    color: #55A8FC;
+}
+
+
+/* End of Css Header */
+
+.tong2{
+    display: flex;
+    margin: 10px 200px;
+    background-color: rgb(249, 245, 245);
+    height: 500px;
+    border-radius: 20px;
+}
+.left{
+    margin: 10px;
+    padding: 10px 20px;
+    height: 480px;
+    background-image: linear-gradient(180deg, #55A8FC 0%, #EAD8FC 100%);
+    border-radius: 20px;
+}
+.left ul{
+    list-style-type: none;
+}
+.theodoi{
+    display: flex;
+}
+.theodoi i{
+    color: black;
+}
+.theodoi i:hover{
+    color: red;
+}
+.left h3{
+    color: white;
+
+}
+
+/* End of Css tong2 */
+
+.wrapper-footer{
+    display: flex;
+    height: 250px;
+}
+.block1{
+    margin: 20px;
+}
+.block1 p{
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+}
+.block1 .icon-footer{
+    padding-top: 10px;
+}
+.links-container{
+    margin: 30px;
+}
+.links-container a{
+    color: black;
+}
+.links-container h4{
+    padding-bottom: 10px;
+}
+.links-container a:hover{
+    color: #55A8FC;
+}
+.chinhsach a:hover{
+    color:#55A8FC;
+}
+.chinhsach a{
+    color: black;
+}
+.chinhsach{
+    margin: 30px;
+}
+.chinhsach h4{
+    padding-bottom: 10px;
+}
+.lienhe{
+    margin: 30px;
+}
+.lienhe h4{
+    padding-bottom: 10px;
+}
+.follow-container{
+    margin: 30px;
+}
+.follow-container h4{
+    padding-bottom: 10px;
+}
+.follow-container .icon ul{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.text.links-container{
+    color: black;
+}
+.icon a{
+    font-size: 20px;
+    color: black;
+}
+.icon a:hover{
+    color: red;
+}
+.wrapper-footer p{
+    color: black;
+}
+.wrapper-footer h4{
+    color: black;
+}
+footer ul{
+    list-style: none;
+}
+
+/* End of Css Footer */
